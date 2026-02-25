@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:netherrack"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
+        },
+        "X": {
+            "item": "minecraft:lava_bucket"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:lava_bucket"
+    "result": {
+        "item": "minecraft:magma_block",
+        "count": 8
     }
-  },
-  "result":
-  {
-    "item": "minecraft:magma_block",
-    "count": 8
-  }
 }

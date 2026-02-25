@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:netherrack"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
+        },
+        "X": {
+            "item": "minecraft:crimson_fungus"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:crimson_fungus"
+    "result": {
+        "item": "minecraft:crimson_nylium",
+        "count": 8
     }
-  },
-  "result":
-  {
-    "item": "minecraft:crimson_nylium",
-    "count": 8
-  }
 }

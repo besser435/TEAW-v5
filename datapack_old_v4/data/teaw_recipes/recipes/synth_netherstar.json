@@ -1,29 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "*#*",
-    "#X#",
-    "*#*"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:gold_block"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "*#*",
+        "#X#",
+        "*#*"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_block"
+        },
+        "X": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "*": {
+            "item": "minecraft:diamond_block"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:netherite_ingot"
-    },
-    "*":
-    {
-      "item": "minecraft:diamond_block"
+    "result": {
+        "item": "minecraft:nether_star",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:nether_star",
-    "count": 1
-  }
 }

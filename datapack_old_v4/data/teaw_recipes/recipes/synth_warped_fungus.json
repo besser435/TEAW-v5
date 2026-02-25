@@ -1,29 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    " # ",
-    "X-X",
-    " # "
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:netherrack"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "X-X",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
+        },
+        "X": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "-": {
+            "item": "minecraft:brown_mushroom"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "-":
-    {
-      "item": "minecraft:brown_mushroom"
+    "result": {
+        "item": "minecraft:warped_fungus",
+        "count": 2
     }
-  },
-  "result":
-  {
-    "item": "minecraft:warped_fungus",
-    "count": 2
-  }
 }

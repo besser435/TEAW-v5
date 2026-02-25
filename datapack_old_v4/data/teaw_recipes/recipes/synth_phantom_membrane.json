@@ -1,29 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "X$X",
-    "#X#",
-    "#X#"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:cobweb"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X$X",
+        "#X#",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobweb"
+        },
+        "$": {
+            "item": "minecraft:ender_eye"
+        },
+        "X": {
+            "item": "minecraft:feather"
+        }
     },
-    "$":
-    {
-      "item": "minecraft:ender_eye"
-    },
-    "X":
-    {
-      "item": "minecraft:feather"
+    "result": {
+        "item": "minecraft:phantom_membrane",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:phantom_membrane",
-    "count": 1
-  }
 }

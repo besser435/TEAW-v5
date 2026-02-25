@@ -1,29 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "#B#",
-    "B*B",
-    "#B#"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:seagrass"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "B*B",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:seagrass"
+        },
+        "*": {
+            "item": "minecraft:diamond_block"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        }
     },
-	"*":
-    {
-      "item": "minecraft:diamond_block"
-    },
-    "B":
-    {
-      "item": "minecraft:bone_meal"
+    "result": {
+        "item": "minecraft:turtle_egg",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:turtle_egg",
-    "count": 1
-  }
 }

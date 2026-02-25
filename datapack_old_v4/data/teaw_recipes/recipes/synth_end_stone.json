@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    " # ",
-    "#X#",
-    " # "
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:sand"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sand"
+        },
+        "X": {
+            "item": "minecraft:cobblestone"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:cobblestone"
+    "result": {
+        "item": "minecraft:end_stone",
+        "count": 2
     }
-  },
-  "result":
-  {
-    "item": "minecraft:end_stone",
-    "count": 2
-  }
 }

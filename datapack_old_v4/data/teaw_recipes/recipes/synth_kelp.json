@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "#X#",
-    "#X#",
-    "#X#"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:seagrass"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#X#",
+        "#X#",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:seagrass"
+        },
+        "X": {
+            "item": "minecraft:sugar_cane"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:sugar_cane"
+    "result": {
+        "item": "minecraft:kelp",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:kelp",
-    "count": 1
-  }
 }

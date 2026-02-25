@@ -1,29 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "*#*",
-    "#X#",
-    "*#*"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:cobbled_deepslate"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "*#*",
+        "#X#",
+        "*#*"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobbled_deepslate"
+        },
+        "X": {
+            "item": "minecraft:diamond_block"
+        },
+        "*": {
+            "item": "minecraft:gold_ingot"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:diamond_block"
-    },
-    "*":
-    {
-      "item": "minecraft:gold_ingot"
+    "result": {
+        "item": "minecraft:music_disc_otherside",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:music_disc_otherside",
-    "count": 1
-  }
 }

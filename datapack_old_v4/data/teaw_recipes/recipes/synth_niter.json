@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    " # ",
-    "#X#",
-    " # "
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:charcoal"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:charcoal"
+        },
+        "X": {
+            "item": "minecraft:quartz"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:quartz"
+    "result": {
+        "item": "oldguns:niter",
+        "count": 4
     }
-  },
-  "result":
-  {
-    "item": "oldguns:niter",
-    "count": 4
-  }
 }

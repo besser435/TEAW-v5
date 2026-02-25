@@ -1,37 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "X*+",
-    "#-#",
-    "+*X"
-  ],
-  "key":
-  {
-    "X":
-    {
-      "item": "minecraft:crimson_fungus"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X*+",
+        "#-#",
+        "+*X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:crimson_fungus"
+        },
+        "*": {
+            "item": "minecraft:netherrack"
+        },
+        "+": {
+            "item": "minecraft:warped_fungus"
+        },
+        "#": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "-": {
+            "item": "minecraft:magma_block"
+        }
     },
-    "*":
-    {
-      "item": "minecraft:netherrack"
-    },
-    "+":
-    {
-      "item": "minecraft:warped_fungus"
-    },
-    "#":
-    {
-      "item": "minecraft:netherite_scrap"
-    },
-    "-":
-    {
-      "item": "minecraft:magma_block"
+    "result": {
+        "item": "minecraft:music_disc_pigstep",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:music_disc_pigstep",
-    "count": 1
-  }
 }

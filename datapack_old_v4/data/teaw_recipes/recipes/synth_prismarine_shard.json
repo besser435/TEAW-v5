@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    " # ",
-    "#X#",
-    " # "
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:kelp"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:kelp"
+        },
+        "X": {
+            "item": "minecraft:cobblestone"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:cobblestone"
+    "result": {
+        "item": "minecraft:prismarine_shard",
+        "count": 4
     }
-  },
-  "result":
-  {
-    "item": "minecraft:prismarine_shard",
-    "count": 4
-  }
 }

@@ -11,7 +11,6 @@ def format_json_file(filepath):
 
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
-            f.write("\n")
 
         print(f"Formatted: {filepath}")
 

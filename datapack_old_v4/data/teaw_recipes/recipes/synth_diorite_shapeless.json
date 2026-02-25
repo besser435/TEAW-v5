@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shapeless",
-	"ingredients": [
-		{
-			"item": "minecraft:cobblestone"
-		},
-		{
-			"item": "minecraft:cobblestone"
-		},
-		{
-			"item": "minecraft:quartz"
-		},
-		{
-			"item": "minecraft:quartz"
-		}
-	],
+    "ingredients": [
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
     "result": {
         "item": "minecraft:diorite",
         "count": 2

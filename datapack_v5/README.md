@@ -3,7 +3,7 @@ For datapack formatting help, see the default Minecraft datapack in the client j
 
 [Datapack Folder Structure](https://minecraft.wiki/w/Data_pack#Folder_structure)
 
-There is a helper Python script to format the JSON files so they are easier to read.
+There is a helper [Python script](format_json.py) to format the JSON files so they are easier to read.
 
 ## Recipes are required for the following:
 * Nether stuff

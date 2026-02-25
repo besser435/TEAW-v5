@@ -1,25 +1,25 @@
 {
     "type": "minecraft:crafting_shapeless",
-	"ingredients": [
-		{
-			"item": "minecraft:glowstone"
-		},
-		{
-			"item": "minecraft:glowstone"
-		},
-		{
-			"item": "minecraft:glowstone"
-		},
-		{
-			"item": "minecraft:glowstone"
-		},
-		{
-			"item": "minecraft:yellow_dye"
-		},
-		{
-			"item": "minecraft:slime_ball"
-		}
-	],
+    "ingredients": [
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        },
+        {
+            "item": "minecraft:slime_ball"
+        }
+    ],
     "result": {
         "item": "minecraft:ochre_froglight",
         "count": 4

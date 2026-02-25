@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "oldguns:sulfur"
-  },
-  "addition": {
-    "item": "alloyed:steel_ingot"
-  },
-  "result": {
-    "item": "oldguns:lead_ingot"
-  }
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "oldguns:sulfur"
+    },
+    "addition": {
+        "item": "alloyed:steel_ingot"
+    },
+    "result": {
+        "item": "oldguns:lead_ingot"
+    }
 }

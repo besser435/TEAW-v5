@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "#X#",
-    "X#X",
-    "#X#"
-  ],
-  "key":
-  {
-    "#":
-    {
-      "item": "minecraft:netherrack"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#X#",
+        "X#X",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
+        },
+        "X": {
+            "item": "minecraft:sand"
+        }
     },
-    "X":
-    {
-      "item": "minecraft:sand"
+    "result": {
+        "item": "minecraft:soul_sand",
+        "count": 8
     }
-  },
-  "result":
-  {
-    "item": "minecraft:soul_sand",
-    "count": 8
-  }
 }

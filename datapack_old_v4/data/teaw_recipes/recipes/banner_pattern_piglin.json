@@ -1,33 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "*#*",
-    "-X-",
-    "*#*"
-  ],
-  "key":
-  {
-    "*":
-    {
-      "item": "minecraft:porkchop"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "*#*",
+        "-X-",
+        "*#*"
+    ],
+    "key": {
+        "*": {
+            "item": "minecraft:porkchop"
+        },
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "-": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "X": {
+            "item": "minecraft:paper"
+        }
     },
-    "#":
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    "-":
-    {
-      "item": "minecraft:rotten_flesh"
-    },
-    "X":
-    {
-      "item": "minecraft:paper"
+    "result": {
+        "item": "minecraft:piglin_banner_pattern",
+        "count": 1
     }
-  },
-  "result":
-  {
-    "item": "minecraft:piglin_banner_pattern",
-    "count": 1
-  }
 }
