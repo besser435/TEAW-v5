@@ -1,4 +1,4 @@
-# Datapack for TEAW 5
+# Datapack for TEAW v5
 For datapack formatting help, see the default Minecraft datapack in the client jar file.
 
 [Datapack Folder Structure](https://minecraft.wiki/w/Data_pack#Folder_structure)
@@ -9,6 +9,17 @@ There is a helper [Python script](format_json.py) to format the JSON files so th
 * Nether stuff
 * End stuff
 * Things that were added after 1.21.4, as the world was made for 1.21.4.
+
+
+## Recipe notes
+* The old v4 datapack had some recipes that were not needed due to Create mod alternatives. Ensure that there are no duplicates,
+as the custom recipes do not feel as nice.
+
+* In the v4 pack, there were some recipes that had NBT data. Use components instead.
+
+* Follow proper convention. Names such as "minecraft" or "create" will override those defaults. If we want to add a new feature in addition to the base behavior, it should be under some "teaw" identifier.
+
+* The TEAW recipes are sorted in separate identifiers such as "teaw_nether_recipe" for nether recipes for example.
 
 
 ## Added features
