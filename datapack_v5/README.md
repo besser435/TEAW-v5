@@ -41,5 +41,7 @@ feature in addition to the base behavior, it should be under some "teaw" identif
 searching already looted structures for something.
 
 ## WIP recipe notes
+# Should maybe just make make a *complete* list of items before starting on recipes. Don't try to port over old datapack, start from scratch.
+
 * See un-craftable patterns here https://minecraft.wiki/w/Banner_Pattern
 
