@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "#X#",
+    "***"
+  ],
+  "key":
+  {
+    "*":
+    {
+      "item": "alloyed:steel_block"
+    },
+    "X":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "#":
+    {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:shulker_shell",
+    "count": 1
+  }
+}
