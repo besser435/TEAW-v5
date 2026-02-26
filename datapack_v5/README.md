@@ -26,6 +26,10 @@ to [barter](https://minecraft.wiki/w/Bartering#Items_bartered) with them.
 We should ask him to make a version of the world that doesn't have ruined portals or strongholds, but has things like trial chambers and deep dark biomes.
 
 
+# Player notes
+This datapack probably contains errors or missing recipes. Given that there are so many items, its hard to know if we made them all obtainable.
+For that reason, players should be encouraged and awarded for finding missing or broken recipes.
+
 
 ## Recipe notes
 * The old v4 datapack had some recipes that were not needed due to Create mod alternatives. Ensure that there are no duplicates,
