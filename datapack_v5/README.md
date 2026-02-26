@@ -6,9 +6,12 @@ For datapack formatting help, see the default Minecraft datapack in the client j
 There is a helper [Python script](format_json.py) to format the JSON files so they are easier to read.
 
 ## Added features
+* Piglins do not get converted to zombified piglins in the overworld, allowing players 
+to [barter](https://minecraft.wiki/w/Bartering#Items_bartered) with them.
 * Players will drop their head when they die
 * Moss is mineable with a pickaxe and shovel, in addition to the hoe.
-* Happy ghasts are faster when a player is on them
+* Happy ghasts are faster when a player is on them.
+
 
 ## Mod notes
 * The Exposure mod has the inter-planar projector disabled. Ensure this is still valid for v5.
