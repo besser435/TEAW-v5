@@ -4,12 +4,12 @@
     "pattern": [
         "LSL",
         "PEP",
-        "LDL"
+        "LNL"
     ],
     "key": {
         "S": "minecraft:golden_sword",
         "E": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
+        "N": "minecraft:nether_star",
         "L": "minecraft:leather",
         "P": "minecraft:porkchop"
     },
