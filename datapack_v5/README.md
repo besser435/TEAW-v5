@@ -11,6 +11,8 @@ to [barter](https://minecraft.wiki/w/Bartering#Items_bartered) with them.
 * Players will drop their head when they die
 * Moss is mineable with a pickaxe and shovel, in addition to the hoe.
 * Happy ghasts are faster when a player is on them.
+* Create's Mechanical Drills can no longer mine any type of deepslate. This has several intended effects, the main one is to prevent mass accumulation of diamonds, while still
+allowing other types of drills to work. Diamonds can still be mined for at stone level, but the much lower spawn rate makes it slower to gather them.
 
 
 ## Mod notes
