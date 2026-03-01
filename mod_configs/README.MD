@@ -11,19 +11,39 @@ as storing the raw configs this early might cause issues.
     <summary>Something like:</summary>
 
     ```java
+    public class LimitBadBlocks {
+        public static void init() {
+            CreateEvents.CONTRAPTION_ASSEMBLY.register(LimitBlocksMod::onAssemble);
+        }
+        private static boolean onAssemble(Contraption contraption) {
+            for (StructureBlockInfo info : contraption.getBlocks().values()) {
+                if (info.state().getBlock() instanceof AutoCannonBlock) {
+                    return false;
+                    // Alert player with Goggle tooltip
+                }
+            }
+            return true;
+        }
+    }
+    ```
+
+    <p>Or, use a mixin (will break on updates, be careful!). 
+    This example shows how to abort of only over a certain amount of blocks.<p>
+
+    ```java
     @Mixin(Contraption.class)
     public class ContraptionMixin {
         @Inject(method = "assemble", at = @At("TAIL"), cancellable = true)
-        private void limitBadBlocks(Level level, BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
+        private void limitChestBlocks(Level level, BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
             Contraption contraption = (Contraption)(Object)this;
-            int autoCannons = 0;
+            int chest_count = 0;
             for (StructureBlockInfo info : contraption.getBlocks().values()) {
-                if (info.state().getBlock() instanceof AutoCannonBlock) {
-                    autoCannons++;
+                if (info.state().getBlock() instanceof ChestBlock) {
+                    chest_count++;
 
-                    if (autoCannons > 256) {
+                    if (chest_count > 4) {
                         cir.setReturnValue(false);
-                        // Notify player somehow. Can we use Goggle tooltip?
+                        // Alert player with Goggle tooltip
                         return;
                     }
                 }
