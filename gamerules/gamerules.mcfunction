@@ -6,9 +6,9 @@ gamerule locator_bar false
 gamerule players_sleeping_percentage 20
 
 gamerule raids false
-gamerule spawn_patrols false
 
 gamerule spawner_blocks_work false
 
-
-
+gamerule spawn_wardens false
+gamerule spawn_phantoms false
+gamerule spawn_patrols false
