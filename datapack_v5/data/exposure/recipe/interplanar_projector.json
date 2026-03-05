@@ -1,23 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#W#",
-        "WDW",
-        "#W#"
+        "###",
+        "###",
+        "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:air"
-        },
-        "W": {
-            "item": "minecraft:air"
-        },
-        "D": {
-            "item": "minecraft:air"
-        }
+        "#": "minecraft:air"
     },
     "result": {
-        "item": "exposure:interplanar_projector",
-        "count": 1
+        "id": "exposure:interplanar_projector"
     }
 }

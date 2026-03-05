@@ -5,14 +5,31 @@ For datapack formatting help, see the default Minecraft datapack in the client j
 
 There is a helper [Python script](format_json.py) to format the JSON files so they are easier to read.
 
+
+## Player notes
+This datapack probably contains errors or missing recipes. Given that there are so many items, its hard to know if we made them all obtainable.
+For that reason, players should be encouraged and awarded for finding missing or broken recipes.
+
+
 ## Added features
 * Piglins do not get converted to zombified piglins in the overworld, allowing players 
 to [barter](https://minecraft.wiki/w/Bartering#Items_bartered) with them.
 * Players will drop their head when they die
 * Moss is mineable with a pickaxe and shovel, in addition to the hoe.
 * Happy ghasts are faster when a player is on them.
-* Create's Mechanical Drills can no longer mine any type of deepslate. This has several intended effects, the main one is to prevent mass accumulation of diamonds, while still
+* Create's Mechanical Drills can no longer mine any type of deepslate. This has several intended effects, 
+the main one is to prevent mass accumulation of diamonds, while still
 allowing other types of drills to work. Diamonds can still be mined for at stone level, but the much lower spawn rate makes it slower to gather them.
+
+
+## FIXME:
+* Minecraft complains when you disable recipes by using something like air. Find a better way to disable items.
+The following have been disabled this way:
+    - Inter-planar projector
+    - End crystal
+
+* Verify Cobblestone by mixing works, Create uses "results" but minecraft uses "result"
+* Ensure console output when loading the datapack is free of errors
 
 
 ## Mod notes
@@ -20,17 +37,12 @@ allowing other types of drills to work. Diamonds can still be mined for at stone
 * Create has some nether recipes such as the Blaze burner.
 
 
-## Recipes are required for the following:
+## Recipes are required for the following
 * Nether stuff
 * End stuff
 * Things that were added after 1.21.4, as the world was made for 1.21.4.
 * Things that can be found in structures should not be added. The map maker, CannonMan, can customize the map. 
 We should ask him to make a version of the world that doesn't have ruined portals or strongholds, but has things like trial chambers and deep dark biomes.
-
-
-# Player notes
-This datapack probably contains errors or missing recipes. Given that there are so many items, its hard to know if we made them all obtainable.
-For that reason, players should be encouraged and awarded for finding missing or broken recipes.
 
 
 ## Recipe notes

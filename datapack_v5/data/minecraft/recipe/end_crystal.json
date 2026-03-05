@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "GGG",
+        "GEG",
+        "GTG"
+    ],
+    "key": {
+        "E": "minecraft:air",
+        "G": "minecraft:air",
+        "T": "minecraft:air"
+    },
+    "result": {
+        "id": "minecraft:end_crystal"
+    }
+}

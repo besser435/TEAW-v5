@@ -3,17 +3,16 @@
     "ingredients": [
         {
             "fluid": "minecraft:water",
-            "nbt": {},
             "amount": 500
         },
         {
-            "fluidTag": "minecraft:lava",
+            "fluid": "minecraft:lava",
             "amount": 500
         }
     ],
     "results": [
         {
-            "item": "minecraft:cobblestone",
+            "id": "minecraft:cobblestone",
             "count": 64
         }
     ]
