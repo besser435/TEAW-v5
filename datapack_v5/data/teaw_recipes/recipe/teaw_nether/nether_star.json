@@ -11,6 +11,7 @@
     "transitional_item": {
         "id": "teawutils:uncompressed_nether_star"
     },
+    "loops": 384,
     "sequence": [
         {
             "type": "create:deploying",
