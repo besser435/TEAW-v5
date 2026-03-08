@@ -1,24 +1,90 @@
 {
-    "comment": "FIXME: need to use tags, but want shorthand for 26.1 format. ",
-
-
-
-
-    
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "SGS",
-        "SDS",
-        "SBS"
-    ],
-    "key": {
-        "S": "#c:plates/gold",
-        "G": "minecraft:gold_block",
-        "D": "minecraft:diamond_block",
-        "B": "create:blaze_cake"
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "processing_time": 200,
+  "ingredients": [
+    {
+      "item": "create:sturdy_sheet"
     },
-    "result": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
+    },
+    {
+        
+      "item": "minecraft:gold_ingot"
     }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherite_scrap",
+      "count": 2
+    }
+  ]
 }
