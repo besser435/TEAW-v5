@@ -40,6 +40,7 @@ but be sure to make it so it doesn't match the patterns in the JSON, as those co
 
 
 ## Recipes are required for the following
+* Recipe and Recipe Overrides are tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1WNqKat2F7OxKLJQZ4v9aPr6HE6SyDCJ4IfZWrcafLfY/edit?usp=sharing).
 * Nether stuff
 * End stuff
 * Things that were added after 1.21.4, as the world was made for 1.21.4.
