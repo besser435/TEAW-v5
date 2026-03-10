@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BWB",
+        "M#M",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "M": "minecraft:milk_bucket",
+        "W": "minecraft:wheat",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:goat_spawn_egg"
+    }
+}

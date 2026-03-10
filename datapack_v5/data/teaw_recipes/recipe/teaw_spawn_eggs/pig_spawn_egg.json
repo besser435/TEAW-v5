@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BCB",
+        "C#C",
+        "LDL"
+    ],
+    "key": {
+        "C": "minecraft:carrot",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:pig_spawn_egg"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "EWE",
+        "W#W",
+        "LNL"
+    ],
+    "key": {
+        "W": "minecraft:wheat",
+        "E": "minecraft:emerald",
+        "#": "#minecraft:eggs",
+        "N": "minecraft:nether_star",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:villager_spawn_egg"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "YCY",
+        "M#M",
+        "LDL"
+    ],
+    "key": {
+        "Y": "minecraft:yellow_wool",
+        "M": "minecraft:melon_slice",
+        "C": "minecraft:cactus",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:camel_spawn_egg"
+    }
+}

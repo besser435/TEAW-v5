@@ -31,6 +31,8 @@ The following have been disabled this way:
 * Verify Cobblestone by mixing works, Create uses "results" but minecraft uses "result"
 * Ensure console output when loading the datapack is free of errors
 
+* Check for recipe conflicts. Check each recipe type. Python script could help,
+but be sure to make it so it doesn't match the patterns in the JSON, as those could differ but still lead to conflicts.
 
 ## Mod notes
 * The Exposure mod has the inter-planar projector disabled. Ensure this is still valid for v5.

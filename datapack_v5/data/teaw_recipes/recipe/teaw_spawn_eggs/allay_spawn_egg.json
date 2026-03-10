@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "ALA",
+        "X#X",
+        "LDL"
+    ],
+    "key": {
+        "A": "minecraft:amethyst_shard",
+        "X": "minecraft:lead",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:allay_spawn_egg"
+    }
+}

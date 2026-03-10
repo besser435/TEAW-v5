@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "NS",
+        "SN"
+    ],
+    "key": {
+        "S": "#minecraft:sand",
+        "N": "minecraft:netherrack"
+    },
+    "result": {
+        "id": "minecraft:soul_sand",
+        "count": 4
+    }
+}
