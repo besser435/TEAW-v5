@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BSB",
+        "S#S",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "S": "minecraft:salmon",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:cat_spawn_egg"
+    }
+}

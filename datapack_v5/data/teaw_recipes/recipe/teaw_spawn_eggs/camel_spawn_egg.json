@@ -2,12 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "YCY",
+        "BCB",
         "M#M",
         "LDL"
     ],
     "key": {
-        "Y": "minecraft:yellow_wool",
+        "B": "minecraft:bone",
         "M": "minecraft:melon_slice",
         "C": "minecraft:cactus",
         "#": "#minecraft:eggs",

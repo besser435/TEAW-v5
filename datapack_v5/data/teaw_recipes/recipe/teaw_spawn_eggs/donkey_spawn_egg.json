@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BGB",
+        "C#S",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "C": "minecraft:cocoa_beans",
+        "S": "minecraft:cake",
+        "G": "minecraft:golden_carrot",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:donkey_spawn_egg"
+    }
+}

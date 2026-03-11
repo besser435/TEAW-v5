@@ -2,11 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "LSL",
+        "BSB",
         "PEP",
         "LNL"
     ],
     "key": {
+        "B": "minecraft:bone",
         "S": "minecraft:golden_sword",
         "E": "#minecraft:eggs",
         "N": "minecraft:nether_star",

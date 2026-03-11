@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " T ",
+        "F#F",
+        "LDL"
+    ],
+    "key": {
+        "T": "#minecraft:leaves",
+        "F": "minecraft:dandelion",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:rabbit_spawn_egg"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BAB",
+        "A#A",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "A": "minecraft:apple",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:horse_spawn_egg"
+    }
+}

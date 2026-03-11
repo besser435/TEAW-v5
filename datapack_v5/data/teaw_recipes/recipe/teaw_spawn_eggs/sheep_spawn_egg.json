@@ -3,14 +3,14 @@
     "category": "misc",
     "pattern": [
         "BSB",
-        "WMW",
+        "W#W",
         "LDL"
     ],
     "key": {
         "W": "minecraft:wheat",
         "S": "minecraft:wheat_seeds",
         "B": "minecraft:bone",
-        "M": "minecraft:bone_meal",
+        "#": "#minecraft:eggs",
         "D": "minecraft:diamond_block",
         "L": "minecraft:leather"
     },

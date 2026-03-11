@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BMB",
+        "F#F",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "F": "minecraft:rotten_flesh",
+        "M": "#minecraft:meat",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:wolf_spawn_egg"
+    }
+}

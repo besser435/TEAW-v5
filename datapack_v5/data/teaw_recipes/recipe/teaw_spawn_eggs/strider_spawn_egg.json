@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "NLN",
+        "BSB",
         "S#S",
         "LDL"
     ],
     "key": {
         "S": "minecraft:string",
-        "N": "minecraft:netherrack",
+        "B": "minecraft:bone",
         "#": "#minecraft:eggs",
         "D": "minecraft:diamond_block",
         "L": "minecraft:leather"
