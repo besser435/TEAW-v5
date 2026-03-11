@@ -14,7 +14,7 @@ For that reason, players should be encouraged and awarded for finding missing or
 ## Added features
 * Piglins do not get converted to zombified piglins in the overworld, allowing players 
 to [barter](https://minecraft.wiki/w/Bartering#Items_bartered) with them.
-* Players will drop their head when they die
+* Players will drop their head when they die.
 * Moss is mineable with a pickaxe and shovel, in addition to the hoe.
 * Happy ghasts are faster when a player is on them.
 * Create's Mechanical Drills can no longer mine any type of deepslate. This has several intended effects, 
@@ -33,6 +33,9 @@ The following have been disabled this way:
 
 * Check for recipe conflicts. Check each recipe type. Python script could help,
 but be sure to make it so it doesn't match the patterns in the JSON, as those could differ but still lead to conflicts.
+
+* After Create and Minecraft get updated to 26.1, review all recipes to ensure they still work. 
+Create mod has copper nuggets for example in some recipe outputs, but now Minecraft has its own copper nuggets. Look out for stuff like that.
 
 ## Mod notes
 * The Exposure mod has the inter-planar projector disabled. Ensure this is still valid for v5.

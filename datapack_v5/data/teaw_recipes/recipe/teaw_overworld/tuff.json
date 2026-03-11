@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "minecraft:blackstone"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:tuff"
+        }
+    ]
+}

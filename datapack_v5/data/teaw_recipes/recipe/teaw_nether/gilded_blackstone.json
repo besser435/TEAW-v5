@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:blackstone"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:gilded_blackstone"
+        }
+    ]
+}
