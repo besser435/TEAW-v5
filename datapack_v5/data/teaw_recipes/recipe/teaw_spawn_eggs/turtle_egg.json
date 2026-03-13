@@ -7,10 +7,9 @@
         "LDL"
     ],
     "key": {
-        "B": "minecraft:bone",
         "S": "minecraft:seagrass",
         "X": "#minecraft:sand",
-
+        "B": "minecraft:bone",
         "#": "#minecraft:eggs",
         "D": "minecraft:diamond_block",
         "L": "minecraft:leather"

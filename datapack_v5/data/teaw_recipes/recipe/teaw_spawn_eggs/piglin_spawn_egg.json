@@ -7,14 +7,15 @@
         "LNL"
     ],
     "key": {
-        "B": "minecraft:bone",
         "S": "minecraft:golden_sword",
+        "P": "minecraft:porkchop",
+        "B": "minecraft:bone",
         "E": "#minecraft:eggs",
         "N": "minecraft:nether_star",
-        "L": "minecraft:leather",
-        "P": "minecraft:porkchop"
+        "L": "minecraft:leather"
     },
     "result": {
-        "id": "minecraft:piglin_spawn_egg"
+        "id": "minecraft:piglin_spawn_egg",
+        "count": 2
     }
 }

@@ -7,10 +7,9 @@
         "LNL"
     ],
     "key": {
-        "B": "minecraft:bone",
         "M": "minecraft:moss_block",
-        "X": "#minecraft:mud",
-
+        "X": "minecraft:mud",
+        "B": "minecraft:bone",
         "#": "#minecraft:eggs",
         "N": "minecraft:nether_star",
         "L": "minecraft:leather"

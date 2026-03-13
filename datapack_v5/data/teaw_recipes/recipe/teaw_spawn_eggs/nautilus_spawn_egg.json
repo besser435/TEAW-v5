@@ -7,8 +7,8 @@
         "BDB"
     ],
     "key": {
-        "B": "minecraft:bone_meal",
         "C": "minecraft:tropical_fish",
+        "B": "minecraft:bone_meal",
         "#": "#minecraft:eggs",
         "D": "minecraft:diamond_block"
     },
