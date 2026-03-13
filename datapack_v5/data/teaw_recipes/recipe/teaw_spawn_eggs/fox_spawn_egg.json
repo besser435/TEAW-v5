@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BFB",
+        "S#S",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "S": "minecraft:sweet_berries",
+        "F": "minecraft:feather",
+
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:fox_spawn_egg"
+    }
+}

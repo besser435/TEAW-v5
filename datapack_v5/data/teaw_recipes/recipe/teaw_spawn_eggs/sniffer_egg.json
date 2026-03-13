@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BMB",
+        "X#X",
+        "LNL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "M": "minecraft:moss_block",
+        "X": "#minecraft:mud",
+
+        "#": "#minecraft:eggs",
+        "N": "minecraft:nether_star",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:sniffer_egg"
+    }
+}

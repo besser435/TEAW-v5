@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BCB",
+        "S#S",
+        "LDL"
+    ],
+    "key": {
+        "B": "minecraft:bone",
+        "C": "minecraft:leather_chestplate",
+        "S": "minecraft:spider_eye",
+
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:armadillo_spawn_egg"
+    }
+}

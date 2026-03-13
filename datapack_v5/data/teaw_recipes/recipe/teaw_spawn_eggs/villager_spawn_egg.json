@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "EWE",
+        "CWC",
         "W#W",
         "LNL"
     ],
     "key": {
         "W": "minecraft:wheat",
-        "E": "minecraft:emerald",
+        "C": "#minecraft:villager_plantable_seeds",
         "#": "#minecraft:eggs",
         "N": "minecraft:nether_star",
         "L": "minecraft:leather"
