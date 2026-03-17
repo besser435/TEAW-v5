@@ -1,0 +1,13 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "minecraft:moss_block"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:pale_moss_block"
+        }
+    ]
+}
