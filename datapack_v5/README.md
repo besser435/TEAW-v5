@@ -22,6 +22,16 @@ the main one is to prevent mass accumulation of diamonds, while still
 allowing other types of drills to work. Diamonds can still be mined for at stone level, but the much lower spawn rate makes it slower to gather them.
 
 
+## Building the Datapack
+There are two scripts that should be ran before using the datapack. 
+
+[make_emi_defaults.py](make_emi_defaults.py) 
+takes the custom recipes from the datapack and makes an `emi.json` file. This file should go in the root of the modpack, and tells EMI to use the custom recipes over their defaults. 
+The emi.json file isnt the "proper" way to do it, but its easier than a resource pack.
+
+[format_json.py](format_json.py) just makes things pretty.
+
+
 ## FIXME:
 * Minecraft complains when you disable recipes by using something like air. Find a better way to disable items.
 The following have been disabled this way:
