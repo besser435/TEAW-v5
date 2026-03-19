@@ -19,10 +19,13 @@ def format_json_file(filepath):
 
 
 def main():
+    count = 0
     for root, dirs, files in os.walk(DIRECTORY):
         for file in files:
             if file.endswith(".json"):
                 format_json_file(os.path.join(root, file))
+                count += 1
+    print(f"Formatted {count} JSON files in ./{DIRECTORY}.")
 
 
 if __name__ == "__main__":
