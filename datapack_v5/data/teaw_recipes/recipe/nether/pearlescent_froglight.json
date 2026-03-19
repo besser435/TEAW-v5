@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "minecraft:magma_cream",
+        "minecraft:magma_cream",
+        "minecraft:purple_dye"
+    ],
+    "result": {
+        "id": "minecraft:pearlescent_froglight"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            "minecraft:brown_mushroom",
+            "minecraft:red_mushroom"
+        ],
+        [
+            "minecraft:brown_mushroom",
+            "minecraft:red_mushroom"
+        ],
+        "create:cinder_flour"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:nether_wart"
+    }
+}

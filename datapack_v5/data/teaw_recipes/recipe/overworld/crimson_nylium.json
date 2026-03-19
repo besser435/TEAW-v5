@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "NNN",
+        "NFN",
+        "NNN"
+    ],
+    "key": {
+        "N": "minecraft:netherrack",
+        "F": "minecraft:crimson_fungus"
+    },
+    "result": {
+        "id": "minecraft:crimson_nylium"
+    }
+}
