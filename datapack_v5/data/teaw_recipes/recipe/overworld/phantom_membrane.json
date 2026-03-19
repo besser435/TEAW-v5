@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "RRR",
+        " S "
+    ],
+    "key": {
+        "R": "minecraft:rabbit_hide",
+        "S": "minecraft:string"
+    },
+    "result": {
+        "id": "minecraft:phantom_membrane"
+    }
+}

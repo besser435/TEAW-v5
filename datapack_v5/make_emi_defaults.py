@@ -52,9 +52,9 @@ def generate_emi_file(recipe_ids):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(emi_data, f, indent=2)
 
-    print(f"Generated {OUTPUT_FILE} with {len(recipe_ids)} recipes.")
+    print(f"Generated ./{OUTPUT_FILE} with {len(recipe_ids)} recipes.")
 
 
-if __name__ == "__main__":
-    recipes = collect_recipe_ids(RECIPES_ROOT)
-    generate_emi_file(recipes)
+#if __name__ == "__main__":
+recipes = collect_recipe_ids(RECIPES_ROOT)
+generate_emi_file(recipes)

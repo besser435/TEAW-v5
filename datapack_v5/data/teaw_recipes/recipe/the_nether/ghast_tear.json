@@ -1,12 +1,15 @@
 {
-    "type": "create:pressing",
+    "type": "create:milling",
     "ingredients": [
         {
             "item": "minecraft:ender_eye"
         }
     ],
+    "processing_time": 50,
     "results": [
         {
+            "count": 2,
+            "chance": 0.25,
             "id": "minecraft:ghast_tear"
         }
     ]
