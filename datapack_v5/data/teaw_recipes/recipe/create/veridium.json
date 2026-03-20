@@ -1,0 +1,40 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:copper_nugget"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:veridium"
+        }
+    ]
+}

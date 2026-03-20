@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "create:honey"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:limestone"
+        }
+    ]
+}

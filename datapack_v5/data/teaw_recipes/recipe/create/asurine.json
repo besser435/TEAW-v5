@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "create:zinc_nugget"
+        },
+        {
+            "item": "create:zinc_nugget"
+        },
+        {
+            "item": "create:zinc_nugget"
+        },
+        {
+            "item": "create:zinc_nugget"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:asurine"
+        }
+    ]
+}
