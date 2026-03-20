@@ -1,6 +1,8 @@
 {
   "recipe_defaults": {
     "added": [
+      "jei:/teaw_recipes/banner_patterns/flow_banner_pattern",
+      "jei:/teaw_recipes/banner_patterns/guster_banner_pattern",
       "jei:/teaw_recipes/banner_patterns/piglin_banner_pattern",
       "jei:/teaw_recipes/create/asurine",
       "jei:/teaw_recipes/create/blaze_burner",

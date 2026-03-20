@@ -3,13 +3,11 @@
     "category": "misc",
     "pattern": [
         "PSP",
-        "P P",
-        "I I"
+        "P P"
     ],
     "key": {
         "P": "minecraft:purpur_block",
-        "S": "create:sturdy_sheet",
-        "I": "create:iron_sheet"
+        "S": "create:sturdy_sheet"
     },
     "result": {
         "id": "minecraft:shulker_shell"

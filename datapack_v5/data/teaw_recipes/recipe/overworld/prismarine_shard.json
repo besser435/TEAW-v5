@@ -3,7 +3,7 @@
     "ingredients": [
         "minecraft:quartz",
         "minecraft:quartz",
-        "minecraft:cobblestone"
+        "minecraft:gravel"
     ],
     "result": {
         "id": "minecraft:prismarine_shard",
