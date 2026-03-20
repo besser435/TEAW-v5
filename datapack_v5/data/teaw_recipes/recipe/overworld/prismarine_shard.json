@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:cobblestone"
+    ],
+    "result": {
+        "id": "minecraft:prismarine_shard",
+        "count": 4
+    }
+}
