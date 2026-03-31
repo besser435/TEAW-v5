@@ -1,4 +1,4 @@
-# Unlike TEAW v4, we will allow phantoms and wandering traders to spawn. 
+# Unlike TEAW v4, we will allow wandering traders to spawn. 
 # They add extra flavor, and make it so we don't need as many custom recipes.
 
 gamerule locator_bar false
