@@ -31,14 +31,14 @@ global.DEV_MODE = false;
 
 
 // -- Processing --
-let expanded = [];
+let cleaned = [];
 
 RAW_BLOCKED_ITEMS.forEach(entry => {
     if (entry.startsWith('#')) {
-        expanded.push(entry);
-    } else {
+        cleaned.push(entry);
+    } else {    // Needed for recipe viewer. Does not like missing items.
         if (Item.exists(entry)) {
-            expanded.push(entry);
+            cleaned.push(entry);
         } else {
             console.warn(`[BLOCKED ITEMS] Missing item skipped: ${entry}`);
         }
@@ -46,8 +46,10 @@ RAW_BLOCKED_ITEMS.forEach(entry => {
 });
 
 // -- Final structures --
-global.BLOCKED_ITEMS = expanded.filter((item, index) => expanded.indexOf(item) === index); // Rhino-compatible array
+global.BLOCKED_ITEMS = cleaned.filter((item, index) => cleaned.indexOf(item) === index); // Rhino-compatible array
 
 if (global.DEV_MODE) {
-    console.info(`[BLOCKED ITEMS] Blocked ${global.BLOCKED_ITEMS.length} items: ${global.BLOCKED_ITEMS.join(', ')}`);
+    console.info(`[BLOCKED ITEMS] Blocked the following items: ${global.BLOCKED_ITEMS.join(', ')}`);
 }
+
+console.info(`[BLOCKED ITEMS] Blocked ${global.BLOCKED_ITEMS.length} items`);
