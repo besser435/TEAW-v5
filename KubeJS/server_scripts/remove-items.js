@@ -11,9 +11,9 @@ ServerEvents.recipes(event => {
 //  FIXME idk if its some other bug, but it blocks stone from dropping when cobblestone is blocked.
 // Could be something else though. 
 // nvm im stupid, stone drops cobblestone.
-// LootJS.lootTables(event => {
-// 	event.modifyLootTables(/.*/)
-//         .removeItem(Ingredient.of(global.BLOCKED_ITEMS));
-// });
+LootJS.lootTables(event => {
+	event.modifyLootTables(/.*/)
+        .removeItem(Ingredient.of(global.BLOCKED_ITEMS));
+});
 
 console.info('TEAW v5 KubeJS server script loaded!')
