@@ -1,19 +1,36 @@
 // -- Remove recipes (output only) --
 ServerEvents.recipes(event => {
-    global.BLOCKED_ITEMS.forEach(id => {
+    let validated = [];
+
+    global.RAW_BLOCKED_ITEMS.forEach(entry => {
+        if (entry.startsWith('#') || Item.exists(entry)) {
+            validated.push(entry);
+        }
+    });
+
+    // Remove recipes (output only)
+    validated.forEach(id => {
         event.remove({ output: id });
-        // Intentionally not removing recipes where the item is an ingredient,
-        // so we notice the problem so we can fix it.
     });
 });
 
-//-- Remove from loot tables --
-//  FIXME idk if its some other bug, but it blocks stone from dropping when cobblestone is blocked.
-// Could be something else though. 
-// nvm im stupid, stone drops cobblestone.
-LootJS.lootTables(event => {
-	event.modifyLootTables(/.*/)
-        .removeItem(Ingredient.of(global.BLOCKED_ITEMS));
+
+// -- Remove from loot tables --
+LootJS.modifiers(event => {
+    let safeLootList = global.RAW_BLOCKED_ITEMS.filter(entry => {
+        if (entry.startsWith('#')) return true; // Tags are generally safe to pass
+        return Item.exists(entry);              // Only include items that are actually loaded
+    });
+
+    if (safeLootList.length > 0) {
+        event.addTableModifier(/.*/)
+            .removeLoot(Ingredient.of(safeLootList));
+            
+        if (global.DEV_MODE) {
+            console.info(`[Item Blocker] Removed ${safeLootList.length} loot table entries.`);
+        }
+    }
 });
+
 
 console.info('TEAW v5 KubeJS server script loaded!')
