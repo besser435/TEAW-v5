@@ -87,4 +87,3 @@ global.RAW_BLOCKED_ITEMS = [
     'refinedstorage:fortune_3_upgrade',
     'refinedstorage:silk_touch_upgrade'
 ];
-
