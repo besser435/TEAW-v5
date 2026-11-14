@@ -51,7 +51,7 @@ BLOCK_REPLACEMENTS = {
 
     # Eyeblossoms
     "minecraft:closed_eyeblossom": "minecraft:oxeye_daisy",
-    "minecraft:open_eyeblossom": "minecraft:orange_tulip",
+    "minecraft:open_eyeblossom": "minecraft:oxeye_daisy",
 
     # Resin
     "minecraft:resin_clump": "minecraft:glow_lichen",
@@ -119,14 +119,41 @@ def compress_chunk(data, compression):
 def transform_chunk(nbt):
     """
     Modify block and biome palettes.
+    Remove incompatible block entities.
 
     Returns:
-        (modified, block_counts, biome_counts)
+        (modified, block_counts, biome_counts, block_entity_counts)
     """
 
     modified = False
     block_counts = {}
     biome_counts = {}
+    block_entity_counts = {}
+
+    # -----------------------------------------
+    # Remove Creaking Heart block entities
+    # -----------------------------------------
+
+    block_entities = nbt.get("block_entities", [])
+
+    # Iterate backwards so removing entries doesn't
+    # affect the indexes of entries we haven't checked.
+    for index in range(len(block_entities) - 1, -1, -1):
+        block_entity = block_entities[index]
+        entity_id = str(block_entity.get("id", ""))
+
+        if entity_id == "minecraft:creaking_heart":
+            del block_entities[index]
+
+            block_entity_counts[entity_id] = (
+                block_entity_counts.get(entity_id, 0) + 1
+            )
+
+            modified = True
+
+    # -----------------------------------------
+    # Block and biome palettes
+    # -----------------------------------------
 
     sections = nbt.get("sections", [])
 
@@ -203,7 +230,7 @@ def transform_chunk(nbt):
 
                 modified = True
 
-    return modified, block_counts, biome_counts
+    return modified, block_counts, biome_counts, block_entity_counts
 
 
 def read_region_chunks(region_path, region_x, region_z):
@@ -441,6 +468,7 @@ def process_region(region_path, log_file):
 
     total_blocks = {}
     total_biomes = {}
+    total_block_entities = {}
 
     for index, chunk in chunks.items():
 
@@ -471,7 +499,7 @@ def process_region(region_path, log_file):
 
             nbt = nbtlib.File.parse(io.BytesIO(raw_nbt))
 
-            modified, block_counts, biome_counts = (
+            modified, block_counts, biome_counts, block_entity_counts = (
                 transform_chunk(nbt)
             )
 
@@ -494,6 +522,11 @@ def process_region(region_path, log_file):
             for name, count in block_counts.items():
                 total_blocks[name] = (
                     total_blocks.get(name, 0) + count
+                )
+
+            for name, count in block_entity_counts.items():
+                total_block_entities[name] = (
+                    total_block_entities.get(name, 0) + count
                 )
 
             for name, count in biome_counts.items():
@@ -523,6 +556,11 @@ def process_region(region_path, log_file):
             for name, count in sorted(total_biomes.items()):
                 log.write(
                     f"  BIOME {name}: {count} palette entries\n"
+                )
+
+            for name, count in sorted(total_block_entities.items()):
+                log.write(
+                    f"  BLOCK ENTITY REMOVED {name}: {count}\n"
                 )
 
     else:
