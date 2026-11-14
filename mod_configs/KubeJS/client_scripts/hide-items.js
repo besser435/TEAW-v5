@@ -9,11 +9,11 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove(toHide);
 });
 
-RecipeViewerEvents.addInformation('item', event => {
-	event.add('playerplushies:player_plushie', [
-		'plushies :3'
-	])
-})
+// RecipeViewerEvents.addInformation('item', event => {
+// 	event.add('playerplushies:player_plushie', [
+// 		'plushies :3'
+// 	])
+// })
 
 
 console.info('TEAW v5 KubeJS client script loaded!')

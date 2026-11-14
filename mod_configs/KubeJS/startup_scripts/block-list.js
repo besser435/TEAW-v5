@@ -34,6 +34,10 @@ global.RAW_BLOCKED_ITEMS = [
     '#refinedstorage:disk_interfaces',
     'refinedstorage:wrench',    // Use Create wrench instead
 
+    // RS Controllers
+    // Using RS without power, so they are not needed
+    '#refinedstorage:controllers',
+
     // RS autocrafting
     '#refinedstorage:autocrafters',
     '#refinedstorage:autocrafter_managers',
