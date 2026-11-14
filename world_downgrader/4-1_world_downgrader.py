@@ -23,26 +23,26 @@ COMPRESSION_NONE = 3
 BLOCK_REPLACEMENTS = {
     # Pale Oak woodset
     "minecraft:pale_oak_log": "minecraft:dark_oak_log",
-    "minecraft:stripped_pale_oak_log": "minecraft:stripped_dark_oak_log",
-    "minecraft:pale_oak_wood": "minecraft:dark_oak_wood",
-    "minecraft:stripped_pale_oak_wood": "minecraft:stripped_dark_oak_wood",
+    "minecraft:stripped_pale_oak_log": "minecraft:stripped_birch_log",
+    "minecraft:pale_oak_wood": "minecraft:birch_wood",
+    "minecraft:stripped_pale_oak_wood": "minecraft:stripped_birch_wood",
 
     "minecraft:pale_oak_leaves": "minecraft:dark_oak_leaves",
     "minecraft:pale_oak_sapling": "minecraft:dark_oak_sapling",
 
-    "minecraft:pale_oak_planks": "minecraft:dark_oak_planks",
-    "minecraft:pale_oak_slab": "minecraft:dark_oak_slab",
-    "minecraft:pale_oak_stairs": "minecraft:dark_oak_stairs",
-    "minecraft:pale_oak_fence": "minecraft:dark_oak_fence",
-    "minecraft:pale_oak_fence_gate": "minecraft:dark_oak_fence_gate",
-    "minecraft:pale_oak_door": "minecraft:dark_oak_door",
-    "minecraft:pale_oak_trapdoor": "minecraft:dark_oak_trapdoor",
-    "minecraft:pale_oak_pressure_plate": "minecraft:dark_oak_pressure_plate",
-    "minecraft:pale_oak_button": "minecraft:dark_oak_button",
-    "minecraft:pale_oak_sign": "minecraft:dark_oak_sign",
-    "minecraft:pale_oak_wall_sign": "minecraft:dark_oak_wall_sign",
-    "minecraft:pale_oak_hanging_sign": "minecraft:dark_oak_hanging_sign",
-    "minecraft:pale_oak_wall_hanging_sign": "minecraft:dark_oak_wall_hanging_sign",
+    "minecraft:pale_oak_planks": "minecraft:birch_planks",
+    "minecraft:pale_oak_slab": "minecraft:birch_slab",
+    "minecraft:pale_oak_stairs": "minecraft:birch_stairs",
+    "minecraft:pale_oak_fence": "minecraft:birch_fence",
+    "minecraft:pale_oak_fence_gate": "minecraft:birch_fence_gate",
+    "minecraft:pale_oak_door": "minecraft:birch_door",
+    "minecraft:pale_oak_trapdoor": "minecraft:birch_trapdoor",
+    "minecraft:pale_oak_pressure_plate": "minecraft:birch_pressure_plate",
+    "minecraft:pale_oak_button": "minecraft:birch_button",
+    "minecraft:pale_oak_sign": "minecraft:birch_sign",
+    "minecraft:pale_oak_wall_sign": "minecraft:birch_wall_sign",
+    "minecraft:pale_oak_hanging_sign": "minecraft:birch_hanging_sign",
+    "minecraft:pale_oak_wall_hanging_sign": "minecraft:birch_wall_hanging_sign",
 
     # Pale Garden vegetation
     "minecraft:pale_moss_block": "minecraft:moss_block",
@@ -586,7 +586,8 @@ def downgrade_world(world_path):
                 )
 
     print("\n" + "=" * 60)
-    print("CONVERSION COMPLETE")
+    print("CONVERSION COMPLETE - Check log to see if any regions failed to convert.")
+    print("Be sure to delete the 'entities' directory if it exists, as it may contain entities with old data versions.")
     print("=" * 60)
     print(f"Regions scanned: {len(region_files)}")
     print(f"Regions modified: {modified_regions}")
