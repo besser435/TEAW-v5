@@ -10,7 +10,8 @@
     ],
     "results": [
         {
-            "id": "minecraft:coarse_dirt"
+            "id": "minecraft:coarse_dirt",
+            "count": 2
         }
     ]
 }
