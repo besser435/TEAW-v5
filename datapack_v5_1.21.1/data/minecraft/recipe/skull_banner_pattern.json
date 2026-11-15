@@ -2,10 +2,15 @@
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
     "ingredients": [
-        "minecraft:paper",
-        "minecraft:skeleton_skull"
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:skeleton_skull"
+        }
     ],
     "result": {
-        "id": "minecraft:skull_banner_pattern"
+        "id": "minecraft:skull_banner_pattern",
+        "count": 1
     }
 }

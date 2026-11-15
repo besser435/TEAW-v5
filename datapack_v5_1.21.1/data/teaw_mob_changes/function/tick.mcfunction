@@ -6,5 +6,5 @@ execute as @e[type=minecraft:piglin, tag=!teawZombProcessed] run function teaw_m
 
 
 # --- Happy Ghast Speed ---
-execute as @e[type=minecraft:happy_ghast, tag=!teawHappyGhastFast] at @s if entity @a[distance=..5] run function teaw_mob_changes:ghast_set_fast
-execute as @e[type=minecraft:happy_ghast, tag=teawHappyGhastFast] at @s unless entity @a[distance=..5] run function teaw_mob_changes:ghast_set_normal
+#execute as @e[type=minecraft:happy_ghast, tag=!teawHappyGhastFast] at @s if entity @a[distance=..5] run function teaw_mob_changes:ghast_set_fast
+#execute as @e[type=minecraft:happy_ghast, tag=teawHappyGhastFast] at @s unless entity @a[distance=..5] run function teaw_mob_changes:ghast_set_normal
