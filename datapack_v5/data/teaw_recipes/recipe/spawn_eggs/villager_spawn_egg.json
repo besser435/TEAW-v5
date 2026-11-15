@@ -10,7 +10,7 @@
         "C": "#minecraft:villager_plantable_seeds",
         "B": "minecraft:bone",
         "#": "#minecraft:eggs",
-        "N": "minecraft:nether_star",
+        "N": "minecraft:diamond_block",
         "L": "minecraft:leather"
     },
     "result": {
