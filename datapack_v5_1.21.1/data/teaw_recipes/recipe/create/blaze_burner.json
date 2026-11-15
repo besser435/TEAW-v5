@@ -7,11 +7,18 @@
         " E "
     ],
     "key": {
-        "R": "minecraft:blaze_rod",
-        "G": "minecraft:gunpowder",
-        "E": "create:empty_blaze_burner"
+        "R": {
+            "item": "minecraft:blaze_rod"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "E": {
+            "item": "create:empty_blaze_burner"
+        }
     },
     "result": {
-        "id": "create:blaze_burner"
+        "id": "create:blaze_burner",
+        "count": 1
     }
 }
