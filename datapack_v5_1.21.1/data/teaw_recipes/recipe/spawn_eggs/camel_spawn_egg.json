@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BCB",
+        "M#M",
+        "LDL"
+    ],
+    "key": {
+        "M": "minecraft:melon_slice",
+        "C": "minecraft:cactus",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:camel_spawn_egg"
+    }
+}

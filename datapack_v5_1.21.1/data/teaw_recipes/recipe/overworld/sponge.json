@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "CWC",
+        "WCW",
+        "CWC"
+    ],
+    "key": {
+        "C": "minecraft:prismarine_crystals",
+        "W": "minecraft:yellow_wool"
+    },
+    "result": {
+        "id": "minecraft:sponge"
+    }
+}

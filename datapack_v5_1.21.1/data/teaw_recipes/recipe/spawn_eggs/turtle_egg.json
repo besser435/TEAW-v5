@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BSB",
+        "X#X",
+        "LDL"
+    ],
+    "key": {
+        "S": "minecraft:seagrass",
+        "X": "#minecraft:sand",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:turtle_egg"
+    }
+}

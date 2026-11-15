@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:blackstone"
+    ],
+    "result": {
+        "id": "minecraft:gilded_blackstone"
+    }
+}

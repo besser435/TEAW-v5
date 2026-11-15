@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "ND",
+        "DN"
+    ],
+    "key": {
+        "D": "#minecraft:dirt",
+        "N": "minecraft:netherrack"
+    },
+    "result": {
+        "id": "minecraft:soul_sand",
+        "count": 4
+    }
+}

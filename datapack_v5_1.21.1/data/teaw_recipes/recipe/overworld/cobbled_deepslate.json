@@ -1,0 +1,23 @@
+{
+    "type": "create:compacting",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:cobblestones"
+        },
+        {
+            "tag": "c:cobblestones"
+        },
+        {
+            "tag": "c:cobblestones"
+        },
+        {
+            "tag": "c:cobblestones"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:cobbled_deepslate"
+        }
+    ]
+}

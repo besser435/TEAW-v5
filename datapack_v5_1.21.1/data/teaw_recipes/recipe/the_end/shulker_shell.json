@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "PSP",
+        "P P"
+    ],
+    "key": {
+        "P": "minecraft:purpur_block",
+        "S": "create:sturdy_sheet"
+    },
+    "result": {
+        "id": "minecraft:shulker_shell"
+    }
+}

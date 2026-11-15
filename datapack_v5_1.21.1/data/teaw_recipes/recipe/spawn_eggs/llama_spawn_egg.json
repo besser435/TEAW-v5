@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BHB",
+        "W#W",
+        "LDL"
+    ],
+    "key": {
+        "H": "minecraft:water_bucket",
+        "W": "minecraft:wheat",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:llama_spawn_egg"
+    }
+}

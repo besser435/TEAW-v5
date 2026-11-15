@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BWB",
+        "W#W",
+        "MDM"
+    ],
+    "key": {
+        "W": "minecraft:wheat",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block",
+        "M": "minecraft:bone_meal"
+    },
+    "result": {
+        "id": "minecraft:cow_spawn_egg"
+    }
+}

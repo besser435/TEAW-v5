@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BCB",
+        "C#C",
+        "LNL"
+    ],
+    "key": {
+        "C": "#minecraft:villager_plantable_seeds",
+        "B": "minecraft:bone",
+        "#": "#minecraft:eggs",
+        "N": "minecraft:nether_star",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:villager_spawn_egg"
+    }
+}

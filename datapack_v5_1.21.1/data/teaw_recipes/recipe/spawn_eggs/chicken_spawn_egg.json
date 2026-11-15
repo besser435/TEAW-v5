@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BSB",
+        "SMS",
+        "LDL"
+    ],
+    "key": {
+        "S": "minecraft:wheat_seeds",
+        "B": "minecraft:bone",
+        "M": "minecraft:bone_meal",
+        "D": "minecraft:diamond_block",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:chicken_spawn_egg"
+    }
+}

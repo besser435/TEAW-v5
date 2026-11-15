@@ -1,0 +1,13 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "minecraft:apple"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:popped_chorus_fruit"
+        }
+    ]
+}

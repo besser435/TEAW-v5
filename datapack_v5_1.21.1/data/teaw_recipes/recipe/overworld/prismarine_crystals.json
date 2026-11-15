@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:glowstone_dust"
+    ],
+    "result": {
+        "id": "minecraft:prismarine_crystals",
+        "count": 4
+    }
+}

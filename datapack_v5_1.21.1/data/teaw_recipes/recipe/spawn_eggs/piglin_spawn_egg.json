@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BSB",
+        "PEP",
+        "LNL"
+    ],
+    "key": {
+        "S": "minecraft:golden_sword",
+        "P": "minecraft:porkchop",
+        "B": "minecraft:bone",
+        "E": "#minecraft:eggs",
+        "N": "minecraft:nether_star",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:piglin_spawn_egg",
+        "count": 2
+    }
+}

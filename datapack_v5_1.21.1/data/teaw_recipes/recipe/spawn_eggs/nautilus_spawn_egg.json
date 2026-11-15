@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BCB",
+        "C#C",
+        "BDB"
+    ],
+    "key": {
+        "C": "minecraft:tropical_fish",
+        "B": "minecraft:bone_meal",
+        "#": "#minecraft:eggs",
+        "D": "minecraft:diamond_block"
+    },
+    "result": {
+        "id": "minecraft:nautilus_spawn_egg"
+    }
+}
