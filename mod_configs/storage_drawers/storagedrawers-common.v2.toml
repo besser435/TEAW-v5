@@ -123,7 +123,7 @@
 		# DROP: Drawer drops items into the world, up to the dropStackLimit value.  Stored items over that limit are voided.
 		# VOID: Drawer voids all items when dropped.
 		#Allowed Values: KEEP, DROP, VOID
-		dropMode = "DROP"
+		dropMode = "KEEP"
 		# 
 		# If dropMode is set to DROP, this is the maximum number of stacks that can be spilled into the world
 		# from the entire block.  By default, this is set to the amount a vanilla chest could drop.
@@ -134,7 +134,7 @@
 	# Controller range defines how far away a drawer can be connected on X, Y, or Z planes.
 	# The largest recommended range is around 75, or the expected chunk load distance.
 	# If setting this value higher, drawers will be unavailable if their chunks become unloaded.
-	controllerRange = 32
+	controllerRange = 50
 
 # Configuration around upgrade items that can be inserted into drawer blocks.
 [Upgrades]
@@ -144,7 +144,7 @@
 	[Upgrades.StorageTiers]
 
 		[Upgrades.StorageTiers.Obsidian]
-			enableUpgrade = false
+			enableUpgrade = true
 			storageMultiplier = 2
 
 		[Upgrades.StorageTiers.Copper]
@@ -153,23 +153,23 @@
 
 		[Upgrades.StorageTiers.Iron]
 			enableUpgrade = true
-			storageMultiplier = 4
+			storageMultiplier = 8
 
 		[Upgrades.StorageTiers.Gold]
 			enableUpgrade = true
-			storageMultiplier = 8
+			storageMultiplier = 16
 
 		[Upgrades.StorageTiers.Emerald]
 			enableUpgrade = true
-			storageMultiplier = 16
+			storageMultiplier = 64
 
 		[Upgrades.StorageTiers.Diamond]
 			enableUpgrade = true
-			storageMultiplier = 64
+			storageMultiplier = 256
 
 		[Upgrades.StorageTiers.Netherite]
 			enableUpgrade = true
-			storageMultiplier = 128
+			storageMultiplier = 2048
 
 	# Allows same-item slots to balance out their amounts when items are added or removed from a slot.
 	# Works across networks when acting through a controller.
@@ -242,7 +242,7 @@
 		maxRange = [24, 8, 0]
 
 		[Upgrades.Magnet.Level1]
-			enableUpgrade = false
+			enableUpgrade = true
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [1, 1, 0]
@@ -255,7 +255,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level2]
-			enableUpgrade = false
+			enableUpgrade = true
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [4, 2, 0]
@@ -268,7 +268,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level3]
-			enableUpgrade = false
+			enableUpgrade = true
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [8, 3, 0]
@@ -304,7 +304,7 @@
 
 	# Lets drawers connect to a controller wirelessly.
 	[Upgrades.Remote]
-		enableUpgrade = false
+		enableUpgrade = true
 		# 
 		# Group variant connects all drawers connected to the upgraded block.
 		enableGroupUpgrade = true
@@ -333,7 +333,7 @@
 		enable = true
 		# 
 		# Show labels by default on newly placed drawers.
-		showDefault = true
+		showDefault = false
 
 	# Concealment keys are used to show or hide the item labels on the face of drawers.
 	# The primary use of this key is for performance by disabling the more expensive dynamic rendering.

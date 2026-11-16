@@ -1,0 +1,2 @@
+parseChestLoot = false
+parseBlockLoot = false

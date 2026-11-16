@@ -1,0 +1,1 @@
+* Copy TEAW v4 config. get rid of the stupid ones, no kinetic blocks, or slopes.

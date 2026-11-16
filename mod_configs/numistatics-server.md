@@ -1,0 +1,1 @@
+how many starter coins should we give? maybe 1 cog?

@@ -1,0 +1,1 @@
+requireEnergy = false
