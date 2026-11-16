@@ -144,7 +144,7 @@
 	[Upgrades.StorageTiers]
 
 		[Upgrades.StorageTiers.Obsidian]
-			enableUpgrade = true
+			enableUpgrade = false
 			storageMultiplier = 2
 
 		[Upgrades.StorageTiers.Copper]
@@ -161,15 +161,15 @@
 
 		[Upgrades.StorageTiers.Emerald]
 			enableUpgrade = true
-			storageMultiplier = 64
+			storageMultiplier = 32
 
 		[Upgrades.StorageTiers.Diamond]
 			enableUpgrade = true
-			storageMultiplier = 256
+			storageMultiplier = 34
 
 		[Upgrades.StorageTiers.Netherite]
 			enableUpgrade = true
-			storageMultiplier = 2048
+			storageMultiplier = 128
 
 	# Allows same-item slots to balance out their amounts when items are added or removed from a slot.
 	# Works across networks when acting through a controller.
@@ -229,7 +229,7 @@
 
 	# Collects matching items through its top like a vanilla hopper.
 	[Upgrades.Hopper]
-		enableUpgrade = true
+		enableUpgrade = false
 
 	# Collects nearby matching items by teleporting them instantly to the drawer
 	[Upgrades.Magnet]
@@ -242,7 +242,7 @@
 		maxRange = [24, 8, 0]
 
 		[Upgrades.Magnet.Level1]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [1, 1, 0]
@@ -255,7 +255,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level2]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [4, 2, 0]
@@ -268,7 +268,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level3]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [8, 3, 0]
@@ -304,10 +304,10 @@
 
 	# Lets drawers connect to a controller wirelessly.
 	[Upgrades.Remote]
-		enableUpgrade = true
+		enableUpgrade = false
 		# 
 		# Group variant connects all drawers connected to the upgraded block.
-		enableGroupUpgrade = true
+		enableGroupUpgrade = false
 		# 
 		# Sets the max range of the single-variant remote upgrade.
 		# The range is capped by the controller range.  Set to 0 to match controller range.
@@ -333,7 +333,7 @@
 		enable = true
 		# 
 		# Show labels by default on newly placed drawers.
-		showDefault = false
+		showDefault = true
 
 	# Concealment keys are used to show or hide the item labels on the face of drawers.
 	# The primary use of this key is for performance by disabling the more expensive dynamic rendering.
