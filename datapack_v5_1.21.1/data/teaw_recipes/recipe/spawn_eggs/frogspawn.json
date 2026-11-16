@@ -7,13 +7,24 @@
         "LDL"
     ],
     "key": {
-        "S": "minecraft:slime_ball",
-        "B": "minecraft:bone_meal",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "S": {
+            "item": "minecraft:slime_ball"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:frogspawn"
+        "id": "minecraft:frogspawn",
+        "count": 1
     }
 }

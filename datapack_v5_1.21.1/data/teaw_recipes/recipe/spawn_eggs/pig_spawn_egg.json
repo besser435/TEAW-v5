@@ -7,13 +7,24 @@
         "LDL"
     ],
     "key": {
-        "C": "minecraft:carrot",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "C": {
+            "item": "minecraft:carrot"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:pig_spawn_egg"
+        "id": "minecraft:pig_spawn_egg",
+        "count": 1
     }
 }

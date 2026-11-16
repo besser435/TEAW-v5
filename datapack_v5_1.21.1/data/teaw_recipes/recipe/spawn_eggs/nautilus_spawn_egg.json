@@ -7,12 +7,21 @@
         "BDB"
     ],
     "key": {
-        "C": "minecraft:tropical_fish",
-        "B": "minecraft:bone_meal",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block"
+        "C": {
+            "item": "minecraft:tropical_fish"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        }
     },
     "result": {
-        "id": "minecraft:nautilus_spawn_egg"
+        "id": "minecraft:nautilus_spawn_egg",
+        "count": 1
     }
 }

@@ -7,14 +7,27 @@
         "LNL"
     ],
     "key": {
-        "M": "minecraft:moss_block",
-        "X": "minecraft:mud",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "N": "minecraft:nether_star",
-        "L": "minecraft:leather"
+        "M": {
+            "item": "minecraft:moss_block"
+        },
+        "X": {
+            "item": "minecraft:mud"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:sniffer_egg"
+        "id": "minecraft:sniffer_egg",
+        "count": 2
     }
 }

@@ -7,14 +7,27 @@
         "LDL"
     ],
     "key": {
-        "H": "minecraft:water_bucket",
-        "W": "minecraft:wheat",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "H": {
+            "item": "minecraft:water_bucket"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:llama_spawn_egg"
+        "id": "minecraft:llama_spawn_egg",
+        "count": 1
     }
 }

@@ -7,13 +7,24 @@
         "LDL"
     ],
     "key": {
-        "A": "minecraft:apple",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "A": {
+            "item": "minecraft:apple"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:horse_spawn_egg"
+        "id": "minecraft:horse_spawn_egg",
+        "count": 1
     }
 }

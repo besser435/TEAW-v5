@@ -15,6 +15,7 @@
         "L": "minecraft:leather"
     },
     "result": {
-        "id": "minecraft:sniffer_egg"
+        "id": "minecraft:sniffer_egg",
+        "count": 2
     }
 }

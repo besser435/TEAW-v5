@@ -7,14 +7,27 @@
         "LDL"
     ],
     "key": {
-        "M": "minecraft:milk_bucket",
-        "W": "minecraft:wheat",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "M": {
+            "item": "minecraft:milk_bucket"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:goat_spawn_egg"
+        "id": "minecraft:goat_spawn_egg",
+        "count": 1
     }
 }

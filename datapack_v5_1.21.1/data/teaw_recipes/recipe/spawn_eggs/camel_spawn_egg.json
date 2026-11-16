@@ -7,14 +7,27 @@
         "LDL"
     ],
     "key": {
-        "M": "minecraft:melon_slice",
-        "C": "minecraft:cactus",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "M": {
+            "item": "minecraft:melon_slice"
+        },
+        "C": {
+            "item": "minecraft:cactus"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:camel_spawn_egg"
+        "id": "minecraft:camel_spawn_egg",
+        "count": 1
     }
 }

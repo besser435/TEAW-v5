@@ -7,13 +7,24 @@
         "LNL"
     ],
     "key": {
-        "C": "#minecraft:villager_plantable_seeds",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "N": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "C": {
+            "tag": "minecraft:villager_plantable_seeds"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:villager_spawn_egg"
+        "id": "minecraft:villager_spawn_egg",
+        "count": 1
     }
 }

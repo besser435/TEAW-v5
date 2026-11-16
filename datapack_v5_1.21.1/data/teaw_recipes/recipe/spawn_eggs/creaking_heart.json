@@ -7,10 +7,15 @@
         " L "
     ],
     "key": {
-        "L": "minecraft:pale_oak_log",
-        "N": "minecraft:nether_star"
+        "L": {
+            "item": "minecraft:pale_oak_log"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
     },
     "result": {
-        "id": "minecraft:creaking_heart"
+        "id": "minecraft:creaking_heart",
+        "count": 1
     }
 }

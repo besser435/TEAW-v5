@@ -7,13 +7,24 @@
         "LDL"
     ],
     "key": {
-        "S": "minecraft:bamboo",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "S": {
+            "item": "minecraft:bamboo"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:panda_spawn_egg"
+        "id": "minecraft:panda_spawn_egg",
+        "count": 1
     }
 }
