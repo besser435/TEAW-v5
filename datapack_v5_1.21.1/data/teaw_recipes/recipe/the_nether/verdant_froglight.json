@@ -2,11 +2,18 @@
     "type": "minecraft:crafting_shapeless",
     "category": "building",
     "ingredients": [
-        "minecraft:magma_cream",
-        "minecraft:magma_cream",
-        "minecraft:green_dye"
+        {
+            "item": "minecraft:magma_cream"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        },
+        {
+            "item": "minecraft:green_dye"
+        }
     ],
     "result": {
-        "id": "minecraft:verdant_froglight"
+        "id": "minecraft:verdant_froglight",
+        "count": 1
     }
 }

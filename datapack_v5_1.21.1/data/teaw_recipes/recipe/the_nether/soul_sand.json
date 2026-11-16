@@ -6,8 +6,12 @@
         "SN"
     ],
     "key": {
-        "S": "#minecraft:sand",
-        "N": "minecraft:netherrack"
+        "S": {
+            "tag": "minecraft:sand"
+        },
+        "N": {
+            "item": "minecraft:netherrack"
+        }
     },
     "result": {
         "id": "minecraft:soul_sand",
