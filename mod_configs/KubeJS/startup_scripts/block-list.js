@@ -25,6 +25,10 @@ global.RAW_BLOCKED_ITEMS = [
     'ironchest:trapped_crystal_chest',
     'ironchest:diamond_to_crystal_chest_upgrade',
 
+    'ironchest:obsidian_chest', // Blast resistance is still broken in 1.21.1, so no point to have them. Re-enable in 26.1+ versions.
+    'ironchest:trapped_obsidian_chest',
+    'ironchest:diamond_to_obsidian_chest_upgrade',
+
     // RS interfaces
     '#refinedstorage:constructors',
     '#refinedstorage:destructors',
