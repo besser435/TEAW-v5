@@ -17,7 +17,7 @@
 		#The current sub-config ID used for new party chunk claims.
 		usedPartySub = "main"
 		#When not empty, used as the name for your claimed chunks.
-		name = ""
+		name = "Expired Claim"
 		#Used as the color for your claims. Set to 0 to use the default automatic color.
 		color = 0
 		#When enabled, the mod tries to protect your claimed chunks from other players. Workarounds are possible, especially with mods.
@@ -36,7 +36,7 @@
 		#When enabled, this player is allowed to make claims.
 		allowedToClaim = true
 		#When enabled, this player is allowed to mark new claimed chunks for forceloading.
-		allowedToAddForceloads = true
+		allowedToAddForceloads = false
 
 		[playerConfig.claims.protection]
 			#When enabled, claimed chunk protection includes protection against fluids (e.g. lava) flowing into the protected chunks from outside. This does not protect wilderness.

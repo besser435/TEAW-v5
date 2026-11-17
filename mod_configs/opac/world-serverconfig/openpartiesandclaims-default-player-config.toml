@@ -36,7 +36,7 @@
 		#When enabled, this player is allowed to make claims.
 		allowedToClaim = true
 		#When enabled, this player is allowed to mark new claimed chunks for forceloading.
-		allowedToAddForceloads = true
+		allowedToAddForceloads = false
 
 		[playerConfig.claims.protection]
 			#When enabled, claimed chunk protection includes protection against fluids (e.g. lava) flowing into the protected chunks from outside. This does not protect wilderness.
@@ -325,11 +325,11 @@
 				#(E) Every - all players.
 				xpPickup = "E"
 				#When enabled, claimed chunk protection allows the natural spawning of hostile mobs.
-				naturalSpawnHostile = true
+				naturalSpawnHostile = false
 				#When enabled, claimed chunk protection allows the natural spawning of friendly mobs.
 				naturalSpawnFriendly = true
 				#When enabled, claimed chunk protection allows hostile mob spawners to operate.
-				spawnersHostile = true
+				spawnersHostile = false
 				#When enabled, claimed chunk protection allows friendly mob spawners to operate.
 				spawnersFriendly = true
 				#When a player group is chosen, claimed chunk protection makes an exception for projectiles owned by any player in the group spawning hostile mobs when they land (e.g. endermites). Protection might not work with projectiles from mods that don't implement this mod's API.

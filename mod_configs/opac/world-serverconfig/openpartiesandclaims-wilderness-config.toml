@@ -36,7 +36,7 @@
 		#When enabled, this player is allowed to make claims.
 		allowedToClaim = true
 		#When enabled, this player is allowed to mark new claimed chunks for forceloading.
-		allowedToAddForceloads = true
+		allowedToAddForceloads = false
 
 		[playerConfig.claims.protection]
 			#When enabled, claimed chunk protection includes protection against fluids (e.g. lava) flowing into the protected chunks from outside. This does not protect wilderness.
