@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "b"
+    ],
+    "key": {
+        "b": "minecraft:big_dripleaf"
+    },
+    "result": {
+        "id": "minecraft:small_dripleaf",
+        "count": 2
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "LP",
+        "PP"
+    ],
+    "key": {
+        "L": "#minecraft:leaves",
+        "P": "minecraft:pink_petals"
+    },
+    "result": {
+        "id": "minecraft:spore_blossom",
+        "count": 2
+    }
+}
