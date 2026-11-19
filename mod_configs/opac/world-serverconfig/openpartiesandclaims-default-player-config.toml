@@ -396,7 +396,7 @@
 							#(P) Party - players or entities owned by players in the same party as you.
 							#(A) Allies - players or entities owned by players in parties that are allied by yours.
 							#(E) Every - all players/entities, even if not owned by anyone.
-							Traders = "N"
+							Traders = "P"
 							#When a player group is chosen, claimed chunk protection makes an exception for interaction with the following entities: minecraft:armor_stand, if the interacting entity is a player in the group or is owned by one.
 							#The built-in player groups are:
 							#
@@ -404,7 +404,7 @@
 							#(P) Party - players or entities owned by players in the same party as you.
 							#(A) Allies - players or entities owned by players in parties that are allied by yours.
 							#(E) Every - all players/entities, even if not owned by anyone.
-							Armor_Stands = "N"
+							Armor_Stands = "P"
 							#When a player group is chosen, claimed chunk protection makes an exception for interaction with the following entities: minecraft:player, if the interacting entity is a player in the group or is owned by one.
 							#The built-in player groups are:
 							#
@@ -684,10 +684,10 @@
 		#When not empty, used in some places as the name for the parties that you create.
 		name = ""
 		#When enabled, your position in the game is shared with players from the same party as you, which can be used by other mods, e.g. to display party members on a map.
-		shareLocationWithParty = true
+		shareLocationWithParty = false
 		#When enabled, your position in the game is shared with the mutual ally parties of the party that you are in, which can be used by other mods, e.g. to display party members on a map.
 		shareLocationWithMutualAllyParties = false
 		#When enabled, the sharable positions of players from the same party as you are shared with your game client, which can be used by other mods, e.g. to display party members on a map.
-		receiveLocationsFromParty = true
+		receiveLocationsFromParty = false
 		#When enabled, the sharable positions of players from the mutual ally parties of the party that you are in are shared with your game client, which can be used by other mods, e.g. to display allies on a map.
 		receiveLocationsFromMutualAllyParties = false

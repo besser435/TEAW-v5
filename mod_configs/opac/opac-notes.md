@@ -4,6 +4,17 @@ A great starting guide is the mod's [modrinth page](https://modrinth.com/mod/ope
 as it has an FAQ section which is very helpful. 
 
 
+# TODO:
+* Make a scripted video explaining all of this
+* Go through OPAC default player config in the GUI. any settings that we noticed need to get changed, change them in the player default config. 
+This way its easier to see all of the settings.
+Do the same for wilderness and server claims, and the main config file where stuff is allowed or disallowed. 
+
+## Why not use Towny?
+uhhhh
+
+
+
 ## Parties, towns, and nations
 maxPartyAllies is set to 8. This means each clan of players (formerly a nation) 
 can have 8 parties (towns). This is a bit complicated, as instead of discrete nations, there is now a web of allies. 
@@ -17,6 +28,12 @@ Upon party deletion, the claims fall back to their default owner, the party owne
 
 A player or party can remain inactive for 1 year (playerClaimsExpirationTime), upon which their claims will become expired. 
 playerClaimsConvertExpiredClaims is true, which means claims are converted to the expired type, rather than being out right deleted.
+
+
+
+## Parties cont.
+Unlike claims, parties dont have a claim GUI. 
+
 
 
 ## Party owned claims
@@ -39,6 +56,15 @@ We will enforce in the rules that claims must be one single blob. (this can kind
 by making it so the max anchor distance is about the max amount of claims. If you want all of the claims, 
 they need to be in a single blob.)
 
+## Ranks
+Ranks let you assign a few key roles to people with the command `/oparties member rank {rank} {player username}`.
+
+
+* `ADMIN`: has near total access to the party and its options. Admins can claim, change config settings, and add or remove players.
+They cannot disband or transfer party ownership.
+* `MODERATOR`: has basic member management perms. They can invite or kick lower ranking players.
+* `CLAIMER`: as the name states, they can claim and unclaim chunks for the party. 
+* `MEMBER`: the default. You can give this to a player with a higher rank to take away their permissions for example.
 
 ## Protections
 By having different player config files, we could ship more default claims. Things like embassy or mob spawner plots. 
@@ -72,7 +98,7 @@ except for **one block inward from the chunk boundary on a claim border.** In ot
 but _right next_ to wilderness or another claim, it will not work.
 
 This is due to how OPAC handles grief protection, and is a feature not a bug™. If you run into this, the easiest fix is to extend your claim
-by one chunk, or to move the device that isnt working one block inwards.
+by one chunk, or to move the device that isn't working one block inwards.
 
 
 ## TLDR:
@@ -83,3 +109,14 @@ by one chunk, or to move the device that isnt working one block inwards.
 * 10 people allowed per party
 
 * You can combine groups and sub-configs to create extremely powerful and configurable permissions
+
+
+
+
+
+ 
+
+
+## Game Master notes
+`playerConfigurablePlayerConfigOptions` in the server config is the holy grail option, it tells players what options they can/can't edit. 
+You can change the option status in the player config after allowing removing an option for example to force a setting on/off.
