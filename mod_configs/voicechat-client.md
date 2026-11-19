@@ -1,0 +1,1 @@
+mute on join == true to ensure privacy and accidental chats

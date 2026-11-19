@@ -20,9 +20,11 @@ playerClaimsConvertExpiredClaims is true, which means claims are converted to th
 
 
 ## Party owned claims
-We want this on so we can have cohesive nations like we had in towny.
+Claims are owned by a party. A party is led by a single player. When a helper for example claims on the party's behalf, they are also
+claiming as the party leader. 
 
-maxPlayerClaims is set to 500. With party owned claims, this effectively serves as the claim limit per party. 
+The claim limit is set to 500. With party owned claims, this effectively serves as the claim limit per party
+(what used to be how many chunks you could have as a town if you come from the Towny system). 
 
 
 ## Anchor based claims
@@ -42,6 +44,9 @@ they need to be in a single blob.)
 By having different player config files, we could ship more default claims. Things like embassy or mob spawner plots. 
 
 ## Groups
+Groups let you bunch certain people and other groups together. Then, when you go to adjust a setting in a claim, you can toggle
+that setting by that group if you wish. This is useful for creating things like a group of helpers, who can enter a certain claim or 
+bypass a certain permission for example. 
 
 ## Ranks
 
@@ -58,11 +63,23 @@ These can be used to claim for things like mob spawners or embassy.
 For example, if you want create a mob farm plot, create a new profile, claim with that profile, and adjust its settings to let monsters spawn.
 Then be sure to switch back to your default profile so you don't accidentally claim your land with the mob farm sub-config!
 
+## Create's deployers, harvesters, ploughs, cart contraptions, and pistons
+If you were here for the the first year or two of TEAW V4, you know that these blocks did not play well with Towny's protections.
+OPAC is better in this regard, but its not perfect. 
+
+Deployers, harvesters, ploughs, cart contraptions, and pistons generally work fine inside of claims, 
+except for **one block inward from the chunk boundary on a claim border.** In other words, if your Create device is in your claim, 
+but _right next_ to wilderness or another claim, it will not work.
+
+This is due to how OPAC handles grief protection, and is a feature not a bug™. If you run into this, the easiest fix is to extend your claim
+by one chunk, or to move the device that isnt working one block inwards.
 
 
 ## TLDR:
 * Parties are what used to be towns
 * Parties can ally with other parties
 * This means allies are at the town level instead of the nation level
-* Parties can have 8 allies, so what used to be called a nation can now have 8 towns.
+* Parties can have 8 allies, so what used to be called a nation can now have 8 towns
 * 10 people allowed per party
+
+* You can combine groups and sub-configs to create extremely powerful and configurable permissions
