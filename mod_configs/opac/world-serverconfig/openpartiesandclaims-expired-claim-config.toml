@@ -19,9 +19,9 @@
 		#When not empty, used as the name for your claimed chunks.
 		name = "Expired Claim"
 		#Used as the color for your claims. Set to 0 to use the default automatic color.
-		color = 0
+		color = 333333
 		#When enabled, the mod tries to protect your claimed chunks from other players. Workarounds are possible, especially with mods.
-		protectClaimedChunks = true
+		protectClaimedChunks = false
 		#The number of additional chunk claims that you can make on top of the normal limit.
 		bonusChunkClaims = 0
 		#The number of additional chunk claim forceloads that you can make on top of the normal limit.
@@ -357,7 +357,7 @@
 				#(P) Party - players in the same party as you.
 				#(A) Allies - players in parties that are allied by yours.
 				#(E) Every - all players.
-				reclaimable = "N"
+				reclaimable = "E"
 				#If touching claims aren't allowed by default on the server, you can claim next to claims owned
 				#by the players in the chosen group if they can also claim next to yours.
 				#Chunks next to claims can be partially protected against item use, mob griefing and more, so you can

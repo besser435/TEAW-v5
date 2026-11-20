@@ -9,9 +9,14 @@ as it has an FAQ section which is very helpful.
 * Go through OPAC default player config in the GUI. any settings that we noticed need to get changed, change them in the player default config. 
 This way its easier to see all of the settings.
 Do the same for wilderness and server claims, and the main config file where stuff is allowed or disallowed. 
+* When a party is disbanded, the claims revert to personal claims. need to edit the mod tweak to unclaim everything upon party deletion or make them expired or something.
+* Set up expired and wilderness claims. Make sure normal claims convert to expired, and test their perms with an alt.
 
-## Why not use Towny?
-uhhhh
+
+## Intro
+If you were a player on TEAW 4, you are familiar with Towny, and its claiming system. For numerous reasons, we have switched to 
+Open Parties and Claims. This is a very different system, but works better for our needs. This guide will walk you through 
+how you can set up OPAC to protect your land.
 
 
 
@@ -23,16 +28,14 @@ Allies are now on the town level basically instead of the nation level.
 Max 10 members per party, 8 allowed allies, for a total of 80 people per nation/clan (i say per clan, but as mentioned, 
 allies can form a web rather than a nation/town hierarchy).
 
-partyExpirationTime is set to 60 days. Every 60 days at least someone in the party must log on to prevent party deletion (I think??).
-Upon party deletion, the claims fall back to their default owner, the party owner. 
-
-A player or party can remain inactive for 1 year (playerClaimsExpirationTime), upon which their claims will become expired. 
-playerClaimsConvertExpiredClaims is true, which means claims are converted to the expired type, rather than being out right deleted.
-
+A player or party can remain inactive for 1 year per `playerClaimsExpirationTime`, upon which their claims will become expired. 
+`playerClaimsConvertExpiredClaims` is true, which means claims are converted to the expired type, rather than being out right deleted.
+The expired claims have no protections, amd can be reclaimed by anyone. Game Masters will periodically delete expired claims. 
+One day after that, the party is deleted per `partyExpirationTime`.
 
 
 ## Parties cont.
-Unlike claims, parties dont have a claim GUI. 
+Unlike claims, parties don't have a claim GUI, but are much more simple than claims.
 
 
 
@@ -40,9 +43,12 @@ Unlike claims, parties dont have a claim GUI.
 Claims are owned by a party. A party is led by a single player. When a helper for example claims on the party's behalf, they are also
 claiming as the party leader. 
 
-The claim limit is set to 500. With party owned claims, this effectively serves as the claim limit per party
-(what used to be how many chunks you could have as a town if you come from the Towny system). 
 
+
+The claim limit is set to 0 for individuals, but each added party member gets 100 claims. The party leader gets a bonus 24 claims.
+This means you must make a party to be able to claim. 
+
+So for a party with 10 people, the max allowable claims is 1024.
 
 ## Anchor based claims
 This will be on so that there are no tiny claims everywhere, we want large masses
@@ -103,12 +109,11 @@ by one chunk, or to move the device that isn't working one block inwards.
 
 ## TLDR:
 * Parties are what used to be towns
-* Parties can ally with other parties
-* This means allies are at the town level instead of the nation level
-* Parties can have 8 allies, so what used to be called a nation can now have 8 towns
+* Parties can ally with other parties (this means allies are at the town level instead of the nation level)
+* Parties can have 8 allies
 * 10 people allowed per party
-
 * You can combine groups and sub-configs to create extremely powerful and configurable permissions
+* Claims and parties expire after one year of complete inactivity from a party
 
 
 
