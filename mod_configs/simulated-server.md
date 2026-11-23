@@ -1,7 +1,7 @@
 	#Maximum amount of blocks in a structure assemble-able by Physics Assemblers, Swivel Bearings, or other means.
 	# Default: 128000
 	# Range: > 1
-	maxBlocksMoved = 32000
+	maxBlocksMoved = 32768
 
 start with 32k. if people really want huge airships, then maybe. 
 This needs included in the singleplayer modpack too,

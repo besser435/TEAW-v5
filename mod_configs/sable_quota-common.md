@@ -1,4 +1,4 @@
-maxStructuresPerPlayer = 3
+maxStructuresPerPlayer = 2
 
 maxStructuresPerOperator = 10
 
