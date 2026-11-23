@@ -1,7 +1,7 @@
 type = panorama
 
 panorama-meta {
-  name = teaw_koh_ruins
+  name = teaw_v5
   speed = 1.0
   fov = 80.0
   angle = 13.0

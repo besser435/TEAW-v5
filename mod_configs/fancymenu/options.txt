@@ -7,7 +7,7 @@ B:play_vanilla_menu_music = 'true';
 
 ##[customization]
 
-B:modpack_mode = 'true';
+B:modpack_mode = 'false';
 B:show_customization_overlay = 'true';
 B:advanced_customization_mode = 'false';
 
@@ -78,7 +78,7 @@ B:global_slider_background_transparent = 'false';
 S:global_slider_label_alignment = 'centered';
 S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
-S:global_background_panorama = 'teaw_koh_ruins';
+S:global_background_panorama = 'teaw_v5';
 I:global_slider_handle_nine_slice_border_left = '5';
 S:global_menu_background_texture = '';
 B:global_menu_background_preserve_aspect_ratio = 'true';
