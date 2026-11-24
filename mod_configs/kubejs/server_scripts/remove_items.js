@@ -27,10 +27,7 @@ LootJS.modifiers(event => {
             .removeLoot(Ingredient.of(safeLootList));
             
         if (global.DEV_MODE) {
-            console.info(`[Item Blocker] Removed ${safeLootList.length} loot table entries.`);
+            console.info(`Removed ${safeLootList.length} loot table entries.`);
         }
     }
 });
-
-
-console.info('TEAW v5 KubeJS server script loaded!')

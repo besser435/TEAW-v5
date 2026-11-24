@@ -14,6 +14,3 @@ RecipeViewerEvents.removeEntries('item', event => {
 // 		'plushies :3'
 // 	])
 // })
-
-
-console.info('TEAW v5 KubeJS client script loaded!')
