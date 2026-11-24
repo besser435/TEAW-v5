@@ -17,7 +17,7 @@
             "item": "minecraft:egg"
         },
         "N": {
-            "item": "minecraft:diamond_block"
+            "item": "minecraft:nether_star"
         },
         "L": {
             "item": "minecraft:leather"
@@ -25,6 +25,6 @@
     },
     "result": {
         "id": "minecraft:villager_spawn_egg",
-        "count": 1
+        "count": 2
     }
 }
