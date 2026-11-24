@@ -22,6 +22,6 @@ log_pack_ids = false
 	enable_builtin = []
 
 [datapacks]
-	required = ["datapacks/teaw_v5_datapack"]
+	required = ["datapacks/teaw_v5_datapack.zip"]
 	optional = ["global_packs/optional_data/"]
 	enable_builtin = []
