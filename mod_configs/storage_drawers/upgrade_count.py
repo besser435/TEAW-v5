@@ -10,8 +10,8 @@ upgrades = {
     "Iron":      {"multiplier": 8},     # default: 8
     "Gold":      {"multiplier": 16},    # default: 16
     "Emerald":   {"multiplier": 32},    # default: 64
-    "Diamond":   {"multiplier": 64},   # default: 256
-    "Netherite": {"multiplier": 128},  # default: 2048
+    "Diamond":   {"multiplier": 64},    # default: 256
+    "Netherite": {"multiplier": 128},   # default: 2048
 }
 
 # Drawer capacities (unitsPerSlot from mod config)
