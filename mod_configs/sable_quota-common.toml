@@ -1,0 +1,14 @@
+[quota]
+	#普通玩家默认物理结构上限；-1 表示无限。
+	# Default: 3
+	# Range: > -1
+	maxStructuresPerPlayer = 3
+	#服务器管理员默认物理结构上限；-1 表示无限。
+	# Default: -1
+	# Range: > -1
+	maxStructuresPerOperator = 10
+
+[messages]
+	#自定义额度不足提示，支持 {owned} 和 {limit} 占位符。
+	#留空时按照玩家客户端语言使用内置文本。
+	creationBlocked = ""
