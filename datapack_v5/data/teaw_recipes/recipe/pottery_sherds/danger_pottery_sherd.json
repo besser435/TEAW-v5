@@ -1,7 +1,10 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": "minecraft:brick",
+    "ingredient": {
+        "item": "minecraft:brick"
+    },
     "result": {
-        "id": "minecraft:danger_pottery_sherd"
+        "id": "minecraft:danger_pottery_sherd",
+        "count": 1
     }
 }

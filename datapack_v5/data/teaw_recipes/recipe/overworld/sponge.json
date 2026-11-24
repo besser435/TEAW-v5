@@ -7,8 +7,12 @@
         "CWC"
     ],
     "key": {
-        "C": "minecraft:prismarine_crystals",
-        "W": "minecraft:yellow_wool"
+        "C": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "W": {
+            "item": "minecraft:yellow_wool"
+        }
     },
     "result": {
         "id": "minecraft:sponge",

@@ -7,13 +7,24 @@
         "LDL"
     ],
     "key": {
-        "S": "minecraft:string",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "S": {
+            "item": "minecraft:string"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:strider_spawn_egg"
+        "id": "minecraft:strider_spawn_egg",
+        "count": 2
     }
 }

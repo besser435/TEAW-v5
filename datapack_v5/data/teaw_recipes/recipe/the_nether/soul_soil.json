@@ -6,8 +6,12 @@
         "DN"
     ],
     "key": {
-        "D": "#minecraft:dirt",
-        "N": "minecraft:netherrack"
+        "D": {
+            "tag": "minecraft:dirt"
+        },
+        "N": {
+            "item": "minecraft:netherrack"
+        }
     },
     "result": {
         "id": "minecraft:soul_soil",

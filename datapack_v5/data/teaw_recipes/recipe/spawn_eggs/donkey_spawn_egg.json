@@ -7,15 +7,30 @@
         "LDL"
     ],
     "key": {
-        "C": "minecraft:cocoa_beans",
-        "S": "minecraft:cake",
-        "G": "minecraft:golden_carrot",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "C": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "S": {
+            "item": "minecraft:cake"
+        },
+        "G": {
+            "item": "minecraft:golden_carrot"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:donkey_spawn_egg"
+        "id": "minecraft:donkey_spawn_egg",
+        "count": 2
     }
 }

@@ -6,10 +6,15 @@
         "P P"
     ],
     "key": {
-        "P": "minecraft:purpur_block",
-        "S": "create:sturdy_sheet"
+        "P": {
+            "item": "minecraft:purpur_block"
+        },
+        "S": {
+            "item": "create:sturdy_sheet"
+        }
     },
     "result": {
-        "id": "minecraft:shulker_shell"
+        "id": "minecraft:shulker_shell",
+        "count": 1
     }
 }

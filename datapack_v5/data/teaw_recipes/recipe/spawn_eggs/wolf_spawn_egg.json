@@ -7,14 +7,27 @@
         "LDL"
     ],
     "key": {
-        "F": "minecraft:rotten_flesh",
-        "M": "#minecraft:wolf_food",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "F": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "M": {
+            "tag": "minecraft:wolf_food"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:wolf_spawn_egg"
+        "id": "minecraft:wolf_spawn_egg",
+        "count": 2
     }
 }

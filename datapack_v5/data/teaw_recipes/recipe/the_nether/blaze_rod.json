@@ -2,7 +2,7 @@
     "type": "create:filling",
     "ingredients": [
         {
-            "item": "minecraft:iron_chain"
+            "item": "minecraft:chain"
         },
         {
             "type": "neoforge:single",

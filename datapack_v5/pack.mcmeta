@@ -1,7 +1,6 @@
 {
   "pack": {
     "description": "Datapack for TEAW. Contains recipes and enhancements.",
-    "min_format": [101,1],
-    "max_format": 101
+	"pack_format": 48
   }
 }

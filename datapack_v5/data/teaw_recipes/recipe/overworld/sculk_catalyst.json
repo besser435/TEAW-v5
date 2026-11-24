@@ -6,10 +6,15 @@
         "B"
     ],
     "key": {
-        "C": "minecraft:creaking_heart",
-        "B": "minecraft:bone_block"
+        "C": {
+            "item": "minecraft:nether_star"
+        },
+        "B": {
+            "item": "minecraft:bone_block"
+        }
     },
     "result": {
-        "id": "minecraft:sculk_catalyst"
+        "id": "minecraft:sculk_catalyst",
+        "count": 1
     }
 }

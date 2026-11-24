@@ -7,14 +7,27 @@
         "LDL"
     ],
     "key": {
-        "C": "minecraft:leather_chestplate",
-        "S": "minecraft:spider_eye",
-        "B": "minecraft:bone",
-        "#": "#minecraft:eggs",
-        "D": "minecraft:diamond_block",
-        "L": "minecraft:leather"
+        "C": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "S": {
+            "item": "minecraft:spider_eye"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
     },
     "result": {
-        "id": "minecraft:armadillo_spawn_egg"
+        "id": "minecraft:armadillo_spawn_egg",
+        "count": 2
     }
 }
